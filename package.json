@@ -68,7 +68,7 @@
     "concurrently": "^8.2.2"
   },
   "dependencies": {
-    "glob": "^11.0.3",
-    "playwright": "^1.53.1"
+    "glob": "^11.1.0",
+    "playwright": "^1.55.1"
   }
 }
