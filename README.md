@@ -1,3 +1,5 @@
+
+
 # ProjectHub-MCP v5.0.0
 
 <div align="center">
@@ -32,7 +34,7 @@ ProjectHub-MCP is a cutting-edge project management platform designed for modern
 
 ### 🏆 Why Choose ProjectHub-MCP?
 
-- **🚀 Modern Stack**: Alpine.js frontend, Node.js/Express backend, PostgreSQL database
+- **🚀 Modern Stack**: React frontend, Node.js/Express backend, PostgreSQL database
 - **🎨 Professional UI**: Dark theme with custom orange branding (#ff6500)
 - **📊 Real Analytics**: Live dashboards with actual data calculations
 - **🤖 AI Ready**: Full Claude Code and MCP protocol integration
@@ -117,7 +119,7 @@ git clone https://github.com/anubissbe/ProjectHub-Mcp.git && cd ProjectHub-Mcp &
 
 ```mermaid
 graph TD
-    A[Alpine.js Frontend<br/>Port 5174] -->|REST API| B[Node.js Backend<br/>Port 3009]
+    A[React Frontend<br/>Port 5174] -->|REST API| B[Node.js Backend<br/>Port 3009]
     B --> C[PostgreSQL DB<br/>Port 5434]
     B --> D[MCP Protocol]
     B --> E[Health Monitoring]
@@ -132,7 +134,7 @@ graph TD
 
 | Frontend | Backend | Database |
 |----------|---------|----------|
-| Alpine.js 3.x | Node.js 18+ | PostgreSQL 15+ |
+| React 19.x | Node.js 18+ | PostgreSQL 15+ |
 | Tailwind CSS 3.4 | Express 4.21 | Redis (optional) |
 | Chart.js 4.4 | JWT Authentication | Docker containers |
 | SortableJS | bcrypt encryption | Health monitoring |
